@@ -1,5 +1,11 @@
 # Getting Started
 
+
+### Building
+* Requires Java 9 and Maven 3
+1. ./mvnw clean install
+2. ./mvnw spring-boot:run
+
 ### H2 Database
  * h2 is available through web browser at http://localhost:8080/h2-console
  * jdbc url = jdbc:h2:file:./data/school
